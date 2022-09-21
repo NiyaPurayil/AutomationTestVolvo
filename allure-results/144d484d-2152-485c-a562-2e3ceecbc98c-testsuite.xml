@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663712924765' stop='1663712927775'>
+    <name>Navigate to Car configurator</name>
+    <title>Navigate to Car configurator</title>
+    <test-cases>
+        <test-case start='1663712924765' status='broken' stop='1663712927774'>
+            <name>should exist and be correct</name>
+            <title>should exist and be correct</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1663712924767' status='passed' stop='1663712927563'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='fad9687a-465a-4f7d-b6d6-bba473363d86-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663712927564' status='passed' stop='1663712927773'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1bb7b2d3-dd4e-4c1e-9a72-82591836b5c5-attachment.png' type='image/png' size='133185'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>homePage.acceptCookies is not a function</message>
+                <stack-trace>TypeError: homePage.acceptCookies is not a function
+                    at Context.&lt;anonymous> (C:\Users\Jidin\Downloads\volvo_webdriverio_automation_test\volvotest\test\specs\headertest.js:11:20)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

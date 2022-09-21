@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='ProductListCarousel-1']/*/div[1]/*/*/*/div[1]/*/*/*/*/div[3]\"}\n  (Session info: chrome=105.0.5195.127)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00B2DF13+2219795]\n\tOrdinal0 [0x00AC2841+1779777]\n\tOrdinal0 [0x009D423D+803389]\n\tOrdinal0 [0x00A03025+995365]\n\tOrdinal0 [0x00A031EB+995819]\n\tOrdinal0 [0x00A30F52+1183570]\n\tOrdinal0 [0x00A1E844+1108036]\n\tOrdinal0 [0x00A2F192+1175954]\n\tOrdinal0 [0x00A1E616+1107478]\n\tOrdinal0 [0x009F7F89+950153]\n\tOrdinal0 [0x009F8F56+954198]\n\tGetHandleVerifier [0x00E22CB2+3040210]\n\tGetHandleVerifier [0x00E12BB4+2974420]\n\tGetHandleVerifier [0x00BC6A0A+565546]\n\tGetHandleVerifier [0x00BC5680+560544]\n\tOrdinal0 [0x00AC9A5C+1808988]\n\tOrdinal0 [0x00ACE3A8+1827752]\n\tOrdinal0 [0x00ACE495+1827989]\n\tOrdinal0 [0x00AD80A4+1867940]\n\tBaseThreadInitThunk [0x757BFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77787B5E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77787B2E+238]\n"
+}

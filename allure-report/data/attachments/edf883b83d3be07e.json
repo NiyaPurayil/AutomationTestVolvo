@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id='ProductListCarousel-1']/*/div[1]/*/*/*/div[1]/*/*/*/*/div[6]"
+}

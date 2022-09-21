@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663713529541' stop='1663713532860'>
+    <name>Navigate to Car configurator</name>
+    <title>Navigate to Car configurator</title>
+    <test-cases>
+        <test-case start='1663713529542' status='broken' stop='1663713532859'>
+            <name>should exist and be correct</name>
+            <title>should exist and be correct</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1663713529544' status='passed' stop='1663713531804'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='197959d2-cb8d-45ac-9d74-f26cdfa0ef9b-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663713531806' status='passed' stop='1663713532101'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6a189673-173a-424c-91e3-988fa084a7ff-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='2a109927-c06f-4c55-9b08-da85ae1fb656-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps>
+                        <step start='1663713531811' status='passed' stop='1663713531833'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='abf2f465-84fb-45f2-bed2-7a6e68ee9c7e-attachment.json' type='application/json' size='62'/>
+                                <attachment title='Response' source='a79e3925-84e4-41b0-80cc-3810b2ab55dd-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1663713531842' status='passed' stop='1663713531847'>
+                            <name>POST /session/:sessionId/element/1833eb8a-8109-46b2-928b-c0a47400538f/click</name>
+                            <title>POST /session/:sessionId/element/1833eb8a-8109-46b2-928b-c0a47400538f/click</title>
+                            <attachments>
+                                <attachment title='Response' source='035691c4-045d-4c13-b64e-5cb9b7c52ce8-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1663713531852' status='passed' stop='1663713532062'>
+                            <name>GET /session/:sessionId/element/1833eb8a-8109-46b2-928b-c0a47400538f/enabled</name>
+                            <title>GET /session/:sessionId/element/1833eb8a-8109-46b2-928b-c0a47400538f/enabled</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663713532062' status='passed' stop='1663713532091'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='03629db5-c0ad-465d-887d-7f13d8f466dc-attachment.json' type='application/json' size='70'/>
+                                <attachment title='Response' source='e5fe1675-4aaf-4a5b-9f83-4d47f3e8ac06-attachment.json' type='application/json' size='4'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663713532104' status='passed' stop='1663713532487'>
+                    <name>POST /session/:sessionId/element/4b7c341a-a8ac-46f2-be04-ad989586dee5/click</name>
+                    <title>POST /session/:sessionId/element/4b7c341a-a8ac-46f2-be04-ad989586dee5/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663713532489' status='passed' stop='1663713532858'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c1edf041-ba9e-4a08-a31b-e87eb538bd99-attachment.png' type='image/png' size='121545'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>homePage.getBuyBtn is not a function</message>
+                <stack-trace>TypeError: homePage.getBuyBtn is not a function
+                    at Context.&lt;anonymous> (C:\Users\Jidin\Downloads\volvo_webdriverio_automation_test\volvotest\test\specs\headertest.js:13:20)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

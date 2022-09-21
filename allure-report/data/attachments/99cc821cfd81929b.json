@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//*[contains(@class, \"accept-cookies-button\") and normalize-space() = \"Accept\"]"
+}

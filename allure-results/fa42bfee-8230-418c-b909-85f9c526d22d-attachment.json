@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//span[1]/a[1][contains(text(),'Cookies')]"
+}
